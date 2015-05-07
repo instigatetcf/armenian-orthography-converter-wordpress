@@ -1,0 +1,12 @@
+{
+    "name": "armenian-orthography-converter-wordpress",
+    "version": "0.0.0",
+    "homepage": "https://github.com/instigatetcf/armenian-orthography-converter-wordpress",
+    "authors": [
+        "omegascorp <omegascorp@gmail.com>"
+    ],
+    "license": "GNU GPL v3",
+    "dependencies": {
+        "armenian-orthography-converter": "*"
+    }
+}

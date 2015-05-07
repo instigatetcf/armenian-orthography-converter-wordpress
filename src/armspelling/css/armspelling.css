@@ -1,0 +1,34 @@
+
+#header-widget-area .widget-area .active span {
+    color: #CD0C29;
+}
+
+#mashtots_link a{
+    color: #555555;
+}
+
+#soviet_link a{
+    color: #CD0C29;
+}
+
+#mashtots_link {
+    height: 14px;
+    color: #555;
+}
+
+#soviet_link {
+    width: 0px;
+    height: 14px;
+}
+
+#mashtots, #soviet{
+    margin-right: 0px;
+}
+
+#check {
+    margin: 0;
+    position: relative;
+    width: 13px;
+    height: 13px;
+    vartical-align: top;
+}
