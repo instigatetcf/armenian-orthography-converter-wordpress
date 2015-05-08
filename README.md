@@ -2,7 +2,7 @@
 
 Wordpress plugin based on https://github.com/instigatetcf/armenian-orthography-converter/
 
-## Grunt tasks
+## Build
 
 Use following task to create production build of extension
 
