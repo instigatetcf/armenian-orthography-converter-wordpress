@@ -1,5 +1,7 @@
 # Armenian orthography converter Wordpress plugin
 
+Wordpress plugin based on https://github.com/instigatetcf/armenian-orthography-converter/
+
 ## Grunt tasks
 
 Use following task to create production build of extension
