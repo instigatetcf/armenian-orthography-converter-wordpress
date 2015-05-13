@@ -1,7 +1,6 @@
 <?php
 /**
- * Plugin Name: ArmSpelling
- * Plugin URI: http://wordpress.org/extend/plugins/ArmSpelling/
+ * Plugin Name: Armenan Orthography Converter
  * Description: This is armenian spelling plugin.
  * Author: Armen, Osip, omegascorp <omegascorp@gmail.com>
  * Version: 1.0
