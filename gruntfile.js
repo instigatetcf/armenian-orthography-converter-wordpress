@@ -8,10 +8,10 @@ module.exports = function (grunt) {
     var uglify = {
         main: {
             files: {
-                'dest/armspelling/armspelling.min.js': [
+                'dest/armenian-orthography-converter/armenian-orthography-converter.min.js': [
                     'bower_components/armenian-orthography-converter/src/mashtots.js',
                     'bower_components/armenian-orthography-converter/src/mashtots-dom.js',
-                    'src/armspelling/armspelling.js'
+                    'src/armenian-orthography-converter/armenian-orthography-converter.js'
                 ]
             }
         }
@@ -22,9 +22,9 @@ module.exports = function (grunt) {
             src: [
                 'bower_components/armenian-orthography-converter/src/mashtots.js',
                 'bower_components/armenian-orthography-converter/src/mashtots-dom.js',
-                'src/armspelling/armspelling.js'
+                'src/armenian-orthography-converter/armenian-orthography-converter.js'
             ],
-            dest: 'dest/armspelling/armspelling.js',
+            dest: 'dest/armenian-orthography-converter/armenian-orthography-converter.js',
         }
     };
 
@@ -34,14 +34,14 @@ module.exports = function (grunt) {
                 patterns: [
                     {
                         match: 'file',
-                        replacement: 'armspelling.min.js'
+                        replacement: 'armenian-orthography-converter.min.js'
                     }
                 ]
             },
             files: [
                 {
                     expand: true,
-                    src: ['dest/armspelling/armspelling.php'],
+                    src: ['dest/armenian-orthography-converter/armenian-orthography-converter.php'],
                     dest: ''
                 }
             ]
@@ -51,14 +51,14 @@ module.exports = function (grunt) {
                 patterns: [
                     {
                         match: 'file',
-                        replacement: 'armspelling.js'
+                        replacement: 'armenian-orthography-converter.js'
                     }
                 ]
             },
             files: [
                 {
                     expand: true,
-                    src: ['dest/armspelling/armspelling.php'],
+                    src: ['dest/armenian-orthography-converter/armenian-orthography-converter.php'],
                     dest: ''
                 }
             ]
@@ -71,13 +71,13 @@ module.exports = function (grunt) {
                 {
                     expand: true,
                     cwd: 'src',
-                    src: ['armspelling/armspelling.php'],
+                    src: ['armenian-orthography-converter/armenian-orthography-converter.php'],
                     dest: 'dest/'
                 },
                 {
                     expand: true,
                     cwd: 'src',
-                    src: ['armspelling/css/*'],
+                    src: ['armenian-orthography-converter/css/*'],
                     dest: 'dest/'
                 }
             ]
@@ -85,7 +85,7 @@ module.exports = function (grunt) {
     };
 
     var clean = {
-        dest: "dest/"
+        dest: 'dest/'
     };
 
     grunt.initConfig({
