@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Armenan Orthography Converter
- * Description: This is armenian spelling plugin.
+ * Plugin Name: Armenan orthography converter
+ * Description: Adds possibility to convert site text from modern armenian spelling to classic and vice versa.
  * Author: Armen, Osip, omegascorp <omegascorp@gmail.com>
- * Version: 1.0
+ * Version: 1.0.0
  * Author URI: http://instigatedesign.am
  */
 
